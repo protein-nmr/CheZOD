@@ -16,6 +16,6 @@ The NMR-STAR file must contain chemical shifts (SCSs) and specify: “_Mol_resid
 
 Output files:
 Output text files are generated with SCSs, “shiftsbmrid.txt”, and Z-scores “zscoresbmrid.txt”.
-Z-score output has the following columns: residue name, residue number (Note 8), and Z-score
+Z-score output has the following columns: residue name, residue number, and Z-score
 shift file has: residue number, residue type, atom type, assigned chemical shift, pentapeptide context, and SCS. 
 A plot windwow opens with Z-score profile (change flag "-p" to "-n" to omit plot. In this case pylab and pyqt are not required).
